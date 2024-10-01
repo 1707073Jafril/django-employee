@@ -1,0 +1,36 @@
+__pycache__/
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+media/
+staticfiles/
+.env
+*.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Virtual Environment
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# MySQL / PostgreSQL Database files
+*.sql
+*.dump
