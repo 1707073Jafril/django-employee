@@ -113,7 +113,7 @@ Version Control : Git
     git clone https://github.com/1707073Jafril/django-employee.git
     cd EmployeeManagement
     ```
-    Or simply download the project file, extract it and go to folder `EmployeeManagement`.
+    Or simply download the project file, extract it and go to folder `EmployeeManagement` and open terminal.
 
 2. Create a virtual environment:(Optional)
     ```bash
