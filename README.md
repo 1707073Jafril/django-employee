@@ -77,3 +77,11 @@ Run this web app in local machine :
   - Excute `python manage.py migrate`
   - Execute `python manage.py runserver`
 4. The app will start and you can use features of this app.
+5. Add Departments from the Django Shell
+  - `python manage.py shell`
+  - `from employee.models import Department`
+  - Department.objects.create(name='HR')
+  - Department.objects.create(name='Engineering')
+  - Department.objects.create(name='Marketing')
+More department can be added via run the command : `Department.objects.create(name='dept_name')` 
+6. Refresh the tab in web browser and enjoy!
