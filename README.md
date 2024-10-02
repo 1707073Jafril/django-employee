@@ -24,7 +24,19 @@ There were created models for four table and those tables are :
   d. Pivot Table : This table is for associating employees with achievement(s).
 
 3. Model Relationship
-There is basically two model relationship were established : 
+There are basically two model relationship were established : 
   a. One to one between Department and Employee
   b. Many to many between Employee and Achievement
+
+4. Views/Controllers
+Most focused features of django views are:
+  a. Employee List : Retrive the employee name, department and achievements.
+  b. Create Employee : Creates new employee with name, department and achievements.
+  c. Update Employee : Update the employee's name, department, and associated achievements.
+  d. Delete Employee : Delete employee from database.
+
+5. Database
+ Database : SQLite relational database
+ Operation : Django ORM 
+
 ```
