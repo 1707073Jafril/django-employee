@@ -67,6 +67,6 @@ Render : HTML
 Database : SQLite
 Version Control : Git
 ```
-```text
+
 Run this web app in local machine :
 1. Download this project from `https://github.com/1707073Jafril/django-employee` and extract if it is necessary.
