@@ -2,7 +2,7 @@
 
 ## About this System
 ```text
-This is a simple web app which is basically built by focusing on backend.
+This is a simple web app for employee management which is basically built by focusing on backend.
 Key Features ot this Web App :
 1. Register
 2. Login and Logout
