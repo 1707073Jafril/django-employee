@@ -40,6 +40,30 @@ Most focused features of django views are:
  Operation : Django ORM 
 
 ```
+```plaintext
++-------------------+       +---------------------+
+|    Department     |       |      Achievement    |
++-------------------+       +---------------------+
+| - id: Integer     |       | - id: Integer       |
+| - name: String    |       | - name: String      |
++-------------------+       +---------------------+
+         | 1                             | *
+         |                               |
+         |                               |
+         |                               |
+         | *                             | *
++-------------------+       +---------------------------+
+|     Employee      |       |      AchievementEmployee   |
++-------------------+       +---------------------------+
+| - id: Integer     |       | - id: Integer             |
+| - name: String    |       | - achievement: ForeignKey |
+| - email: String   |       | - employee: ForeignKey    |
+| - phone: String   |       | - achievement_date: DateTime |
+| - address: String |       +---------------------------+
+| - department: ForeignKey |
++-------------------+
+```
+
 ```text
 Backend Validation : The crucial step
 The app's functionalities and inputs were validated from backed.
