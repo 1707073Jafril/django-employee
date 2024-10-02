@@ -6,8 +6,8 @@ This is a simple web app for employee management which is basically built by foc
 Key Features ot this Web App :
 1. Register
 2. Login and Logout
-3. Add Employee
-4. Edit Employee Information
+3. Create Employee
+4. Update Employee Information
 5. Delete Employee
 ```
 
