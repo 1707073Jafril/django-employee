@@ -100,32 +100,6 @@ Render : HTML
 Database : SQLite
 Version Control : Git
 ```
-
-**Run this web app in local Machine**
-```text
-
-1. Download this project from `https://github.com/1707073Jafril/django-employee` and extract if it is necessary.
-2. Go to the project folder `EmployeeManagement`.
-3. Open terminal in the project folder and excute the following commands sequentially:
-```
- ```bash
-python manage.py makemigrations
-```
-  - Execute `python manage.py makemigrations`
-  - Excute `python manage.py migrate`
-```text  
-4. Add Departments from the Django Shell : Run commands sequentially 
-  - `python manage.py shell`
-  - `from employee.models import Department`
-  - Department.objects.create(name='HR')
-  - Department.objects.create(name='Engineering')
-  - Department.objects.create(name='Marketing')
-More department can be added via run the command : `Department.objects.create(name='dept_name')`
-  - exit()
-
-5. Execute `python manage.py runserver`
-6. The app will start and you can use features of this app.
-```
 # Run this web app in local Machine
 
 ## Requirements
@@ -136,11 +110,12 @@ More department can be added via run the command : `Department.objects.create(na
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/1707073Jafril/django-employee.git
     cd EmployeeManagement
     ```
+    Or simply download the project file, extract it and go to folder `EmployeeManagement`.
 
-2. Create a virtual environment:
+2. Create a virtual environment:(Optional)
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
@@ -150,18 +125,33 @@ More department can be added via run the command : `Department.objects.create(na
     ```bash
     pip install django
     ```
+4. Run makemigrations:(Required if you modify the model)
+   ```bash
+   python manage.py makemigrations
+   ```
 
-4. Run migrations:
+5. Run migrates:
     ```bash
     python manage.py migrate
     ```
 
-5. Create a superuser:
+6. Add Departments from the Django Shell. Run commands sequentially:
     ```bash
-    python manage.py createsuperuser
+    python manage.py shell
     ```
+    Then run following commands:
+   ```python
+   from employee.models import Department
+   ```
+   ```python
+     Department.objects.create(name='HR')
+   ```
+   ```python
+    Department.objects.create(name='Engineering')
+   ```
+   More department can be added via run the command : `Department.objects.create(name='dept_name')`
 
-6. Start the development server:
+8. Start the development server:
     ```bash
     python manage.py runserver
     ```
