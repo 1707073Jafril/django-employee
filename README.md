@@ -40,3 +40,16 @@ Most focused features of django views are:
  Operation : Django ORM 
 
 ```
+
+```text
+Additional Features
+HTML and CSS based static pages are created for rendering. For rendering raw HTML and CSS is used instead of frontend frameworks.
+Following pages was rendered and design :
+- Login
+- Register
+- Employee List
+- Create Employee
+- Update Employee
+
+```
+
