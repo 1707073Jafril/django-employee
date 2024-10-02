@@ -153,6 +153,10 @@ Version Control : Git
    ```
    More department can be added via run the command : `Department.objects.create(name='dept_name')`
 
+   ```python
+   exit()
+   ```
+
 8. Start the development server:
     ```bash
     python manage.py runserver
