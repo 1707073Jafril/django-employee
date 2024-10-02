@@ -67,6 +67,13 @@ Render : HTML
 Database : SQLite
 Version Control : Git
 ```
-
+```text
 Run this web app in local machine :
 1. Download this project from `https://github.com/1707073Jafril/django-employee` and extract if it is necessary.
+2. Go to the project folder `EmployeeManagement`.
+3. Open terminal in the project folder and excute the following commands sequintially:
+  - Install django package by `pip install django` from terminal if it is not installed already.
+  - Execute `python manage.py makemigrations`
+  - Excute `python manage.py migrate`
+  - Execute `python manage.py runserver`
+4. The app will start and you can use features of this app.
