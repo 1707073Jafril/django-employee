@@ -1,6 +1,6 @@
 # Backend: (Django) - Project for Assesment
 
-## About this System**
+## About this System
 ```text
 This is a simple web app which is basically built by focusing on backend.
 Key Features ot this Web App :
@@ -11,7 +11,7 @@ Key Features ot this Web App :
 5. Delete Employee
 ```
 
-## Brief Description of the App
+## Brief Description of the System
 ```text
 1. User Authentication
 Login, Register and Logout are implemented to authenticate users. A new user must have to create an account and
