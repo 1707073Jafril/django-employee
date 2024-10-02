@@ -1,7 +1,8 @@
 # Backend: (Django) - Project for Assesment
 
-
-This is a simple web app is which is basically built by focusing on backend development.
+**About this System**
+```text
+This is a simple web app which is basically built by focusing on backend.
 Key Features ot this Web App :
 1. Register
 2. Login and Logout
@@ -9,9 +10,9 @@ Key Features ot this Web App :
 4. Edit Employee Information
 5. Delete Employee
 
-```text
-Brief Description of the App
 
+**Brief Description of the App**
+```text
 1. User Authentication
 Login, Register and Logout are implemented to authenticate users. A new user must have to create an account and then login to access the employee information.
 
@@ -37,8 +38,9 @@ Most focused features of django views are:
 5. Database
  Database : SQLite relational database
  Operation : Django ORM 
-
 ```
+
+**Class Diagram of the System**
 ```plaintext
 +-------------------+       +---------------------+
 |    Department     |       |      Achievement    |
@@ -62,18 +64,22 @@ Most focused features of django views are:
 | - department: ForeignKey |
 +-------------------+
 ```
+**Simple State Diagram of the System**
+
 ![django](django.png)
 
+
+**Backend Validation : The crucial step**
 ```text
-Backend Validation : The crucial step
+
 The app's functionalities and inputs were validated from backed.
   - Register and Login are validated from backend .
   - Input types(digits for number, non digit in name, valid email), Required Data(name and department can not be empty) are validated.
 ```
 
-
+**Additional Features**
 ```text
-Additional Features
+
 HTML and CSS based static pages are created for rendering. For rendering raw HTML and CSS is used instead of frontend frameworks.
 Following pages was rendered and design :
 - Login
@@ -83,16 +89,18 @@ Following pages was rendered and design :
 - Update Employee
 ```
 
-
+**Technology**
 ```text
-Technology
+
 Backend : Django
 Render : HTML
 Database : SQLite
 Version Control : Git
 ```
+
+**Run this web app in local Machine**
 ```text
-Run this web app in local machine :
+
 1. Download this project from `https://github.com/1707073Jafril/django-employee` and extract if it is necessary.
 2. Go to the project folder `EmployeeManagement`.
 3. Open terminal in the project folder and excute the following commands sequentially:
