@@ -107,10 +107,13 @@ Version Control : Git
 1. Download this project from `https://github.com/1707073Jafril/django-employee` and extract if it is necessary.
 2. Go to the project folder `EmployeeManagement`.
 3. Open terminal in the project folder and excute the following commands sequentially:
-  - Install django package by `pip install django` from terminal if it is not installed already.
+```
+ ```python
+python manage.py makemigrations
+```
   - Execute `python manage.py makemigrations`
   - Excute `python manage.py migrate`
-  
+```text  
 4. Add Departments from the Django Shell : Run commands sequentially 
   - `python manage.py shell`
   - `from employee.models import Department`
