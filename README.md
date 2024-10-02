@@ -40,6 +40,13 @@ Most focused features of django views are:
  Operation : Django ORM 
 
 ```
+```text
+Backend Validation : The crucial step
+The app's functionalities and inputs were validated from backed.
+  - Register and Login are validated from backend .
+  - Input types(digits for number, non digit in name, valid email), Required Data(name and department can not be empty) are validated.
+```
+
 
 ```text
 Additional Features
@@ -50,8 +57,9 @@ Following pages was rendered and design :
 - Employee List
 - Create Employee
 - Update Employee
-
 ```
+
+
 ```text
 Technology
 Backend : Django
@@ -59,3 +67,6 @@ Render : HTML
 Database : SQLite
 Version Control : Git
 ```
+```text
+Run this web app in local machine :
+1. Download this project from `https://github.com/1707073Jafril/django-employee` and extract if it is necessary.
