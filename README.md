@@ -1,6 +1,6 @@
 # Backend: (Django) - Project for Assesment
 
-**About this System**
+## About this System**
 ```text
 This is a simple web app which is basically built by focusing on backend.
 Key Features ot this Web App :
@@ -11,7 +11,7 @@ Key Features ot this Web App :
 5. Delete Employee
 ```
 
-**Brief Description of the App**
+## Brief Description of the App
 ```text
 1. User Authentication
 Login, Register and Logout are implemented to authenticate users. A new user must have to create an account and
@@ -41,7 +41,7 @@ Most focused features of django views are:
  Operation : Django ORM 
 ```
 
-**Class Diagram of the System**
+## Class Diagram of the System
 ```plaintext
 +-------------------+       +---------------------+
 |    Department     |       |      Achievement    |
@@ -65,12 +65,12 @@ Most focused features of django views are:
 | - department: ForeignKey |
 +-------------------+
 ```
-**Simple State Diagram of the System**
+## Simple State Diagram of the System
 
 ![django](django.png)
 
 
-**Backend Validation : The crucial step**
+## Backend Validation : The crucial step
 ```text
 
 The app's functionalities and inputs were validated from backed.
@@ -79,7 +79,7 @@ The app's functionalities and inputs were validated from backed.
   are validated.
 ```
 
-**Additional Features**
+## Additional Features
 ```text
 
 HTML and CSS based static pages are created for rendering. For rendering raw HTML and CSS is used instead of
@@ -92,7 +92,7 @@ Following pages was rendered and design :
 - Update Employee
 ```
 
-**Technology**
+## Technology
 ```text
 
 Backend : Django
@@ -100,6 +100,7 @@ Render : HTML
 Database : SQLite
 Version Control : Git
 ```
+
 # Run this web app in local Machine
 
 ## Requirements
@@ -136,6 +137,7 @@ Version Control : Git
     ```
 
 6. Add Departments from the Django Shell. Run commands sequentially:
+   I keep this option to add department through terminal so that this system can be used in different companies where differents departments are available.
     ```bash
     python manage.py shell
     ```
