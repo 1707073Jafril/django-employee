@@ -63,6 +63,7 @@ Most focused features of django views are:
 | - department: ForeignKey |
 +-------------------+
 ```
+![django](django.png)
 
 ```text
 Backend Validation : The crucial step
