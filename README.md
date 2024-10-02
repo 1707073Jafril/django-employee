@@ -113,4 +113,3 @@ More department can be added via run the command : `Department.objects.create(na
 5. Execute `python manage.py runserver`
 6. The app will start and you can use features of this app.
 ```
-![screenshot](django.png)
