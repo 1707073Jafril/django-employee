@@ -71,17 +71,19 @@ Version Control : Git
 Run this web app in local machine :
 1. Download this project from `https://github.com/1707073Jafril/django-employee` and extract if it is necessary.
 2. Go to the project folder `EmployeeManagement`.
-3. Open terminal in the project folder and excute the following commands sequintially:
+3. Open terminal in the project folder and excute the following commands sequentially:
   - Install django package by `pip install django` from terminal if it is not installed already.
   - Execute `python manage.py makemigrations`
   - Excute `python manage.py migrate`
-  - Execute `python manage.py runserver`
-4. The app will start and you can use features of this app.
-5. Add Departments from the Django Shell
+  
+4. Add Departments from the Django Shell : Run commands sequentially 
   - `python manage.py shell`
   - `from employee.models import Department`
   - Department.objects.create(name='HR')
   - Department.objects.create(name='Engineering')
   - Department.objects.create(name='Marketing')
-More department can be added via run the command : `Department.objects.create(name='dept_name')` 
-6. Refresh the tab in web browser and enjoy!
+More department can be added via run the command : `Department.objects.create(name='dept_name')`
+  - exit()
+
+5. Execute `python manage.py runserver`
+6. The app will start and you can use features of this app.
