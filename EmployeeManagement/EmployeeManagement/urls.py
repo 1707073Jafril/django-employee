@@ -1,6 +1,8 @@
 from django.contrib import admin
-from django.urls import path
 from employee import views
+from django.shortcuts import redirect
+from django.contrib import admin
+from django.urls import include, path
 
 
 # Setting the urls
@@ -10,7 +12,6 @@ urlpatterns = [
     path('login/', views.user_login, name='login'),
     path('logout/', views.user_logout, name='logout'),
     path('employees/', views.list_employees, name='list_employees'),
-    path('employees/create/', views.create_employee, name='create_employee'),
-    path('employees/<int:employee_id>/update/', views.update_employee, name='update_employee'),
-    path('employees/<int:employee_id>/delete/', views.delete_employee, name='delete_employee'),
+    path('', lambda request: redirect('login')),
+    path('', include('employee.urls')), 
 ]
