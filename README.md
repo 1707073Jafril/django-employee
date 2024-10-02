@@ -108,7 +108,7 @@ Version Control : Git
 2. Go to the project folder `EmployeeManagement`.
 3. Open terminal in the project folder and excute the following commands sequentially:
 ```
- ```python
+ ```bash
 python manage.py makemigrations
 ```
   - Execute `python manage.py makemigrations`
