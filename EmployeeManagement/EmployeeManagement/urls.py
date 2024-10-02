@@ -1,7 +1,6 @@
 from django.contrib import admin
 from employee import views
 from django.shortcuts import redirect
-from django.contrib import admin
 from django.urls import include, path
 
 
