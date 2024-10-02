@@ -52,4 +52,10 @@ Following pages was rendered and design :
 - Update Employee
 
 ```
-
+```text
+Technology
+Backend : Django
+Render : HTML
+Database : SQLite
+Version Control : Git
+```
