@@ -1,6 +1,6 @@
 # Backend: (Django) - Project for Assesment
 
-```text
+
 This is a simple web app is which is basically built by focusing on backend development.
 Key Features ot this Web App :
 1. Register
@@ -8,7 +8,6 @@ Key Features ot this Web App :
 3. Add Employee
 4. Edit Employee Information
 5. Delete Employee
-```
 
 ```text
 Brief Description of the App
