@@ -14,7 +14,8 @@ Key Features ot this Web App :
 **Brief Description of the App**
 ```text
 1. User Authentication
-Login, Register and Logout are implemented to authenticate users. A new user must have to create an account and then login to access the employee information.
+Login, Register and Logout are implemented to authenticate users. A new user must have to create an account and
+then login to access the employee information.
 
 2. Database Migrations  
 There were created models for four table and those tables are :
@@ -74,13 +75,15 @@ Most focused features of django views are:
 
 The app's functionalities and inputs were validated from backed.
   - Register and Login are validated from backend .
-  - Input types(digits for number, non digit in name, valid email), Required Data(name and department can not be empty) are validated.
+  - Input types(digits for number, non digit in name, valid email), Required Data(name and department can not be empty)
+  are validated.
 ```
 
 **Additional Features**
 ```text
 
-HTML and CSS based static pages are created for rendering. For rendering raw HTML and CSS is used instead of frontend frameworks.
+HTML and CSS based static pages are created for rendering. For rendering raw HTML and CSS is used instead of
+frontend frameworks.
 Following pages was rendered and design :
 - Login
 - Register
