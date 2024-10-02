@@ -126,17 +126,13 @@ More department can be added via run the command : `Department.objects.create(na
 5. Execute `python manage.py runserver`
 6. The app will start and you can use features of this app.
 ```
-# Employee Management System
-
-## Overview
-This project is an Employee Management System built using Django. It allows users to manage employee records, including creating, updating, and deleting employee information, as well as managing departments and achievements.
+# Run this web app in local Machine
 
 ## Requirements
-- Python 3.x
-- Django 5.x
+- Python
+- Django
 
 ## Installation
-To set up the project, follow these steps:
 
 1. Clone the repository:
     ```bash
